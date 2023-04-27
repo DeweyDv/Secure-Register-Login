@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Playtopus - Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
+	<script src="connect.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		Loading...
+	</div>
+	<div class="container" style="display: none;">
+		<h1>Login</h1>
+		<playtopus>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+			<button type="submit">Login</button>
+			<p>No account? <a href="./register">Register</a>.</p>
+		</playtopus>
+	</div>
+	<alertbox style="display: none;">
+		<alertbox_text>
+			test123
+		</alertbox_text>
+		</alertbox>
+</body>
+
+</html>

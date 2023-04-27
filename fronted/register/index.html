@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Playtopus - Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
+	<script src="../connect.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		Loading...
+	</div>
+	<div class="container">
+		<h1>Register</h1>
+		<playtopus>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="email">E-mail</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+			<label for="confirm-password">Confirm password</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+
+			<button type="submit">Register</button>
+			<p>Already account? <a href="../index.html">Login</a>.</p>
+		</playtopus>
+	</div>
+	<alertbox style="display: none;">
+	<alertbox_text>
+		test123
+	</alertbox_text>
+	</alertbox>
+</body>
+
+</html>

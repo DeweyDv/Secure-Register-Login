@@ -1,0 +1,7 @@
+{
+    "http_port": 8080,
+    "serve_client": "fronted",
+    "mysql_port": 5000,
+    "mysql_pass": "xd",
+    "serve_database": "web"
+}
